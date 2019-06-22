@@ -54,7 +54,7 @@ export class ItemQuestions extends Component  {
     var averageOfQuestions = totalOfQuestionScores / 3;
     console.log("Average" + averageOfQuestions);
 
-    document.getElementById("yourScore").innerHTML = "<h3>Your score for " + "<strong>" + survey.data.itemname + "</strong> is " + averageOfQuestions +"</h3>";
+    document.getElementById("yourScore").innerHTML = "<h3>Your score for <strong>" + survey.data.itemname + "</strong> is " + averageOfQuestions +"</h3>";
     
 
 
