@@ -1,19 +1,16 @@
-import React, { Component } from "react";
-// import logo from "../logo.svg";
-import * as Survey from "survey-react";
+import React from "react";
+import "./Compstyles/Headerstyle.css";
 
-
-export class Header extends Component  {
-    render() {
+const Header = () => (
     
-        return (
-            <div>
-            <h1 class="header">Header</h1>
-            </div>
-        );
-       }
+        
+    <div>
+        <h1 className="header animated bounceInDown bounce ">Get Your <span role="img" class="animated infinite bounce delay-2s">&#128169;</span> Together</h1>
+        
+    </div>
+       
 
-};
+);
   
 
 

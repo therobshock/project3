@@ -45,9 +45,9 @@ export class ItemQuestions extends Component  {
     
     //This counts the number of questions
 
-    var q1 = (survey.data.question1);
-    var q2 = (survey.data.question2);
-    var q3 = (survey.data.question3);
+    var q1 = parseInt(survey.data.question1);
+    var q2 = parseInt(survey.data.question2);
+    var q3 = parseInt(survey.data.question3);
     console.log("Answers to questions: " + q1, q2, q3);
 
     var totalOfQuestionScores = q1 + q2 + q3;
