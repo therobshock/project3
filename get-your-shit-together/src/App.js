@@ -7,6 +7,8 @@ import "survey-react/survey.css";
 // import SurveyCreator from "./SurveyCreator";
 import ItemQuestions from "./Components/ItemQuestions";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
+import Description from "./Components/Description";
 // import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -59,20 +61,22 @@ class App extends Component {
           }/>
           <Route path="/" exact render={
           ()=> {
-            return (<div><Header /> <h1>Get Your 💩 Together</h1></div>)
+            return (<div><Header /> 
+            <Description /> 
+            <Footer /> 
+                    </div>)
           }
           }/>
           <Route path="/add-shit" exact render={
           ()=> {
-            return (<div><h1>Add Your 💩</h1> 
-              <ItemQuestions />
-          <div id="yourScore"></div></div>
+            return (<div><Header /> <h1>Add Your 💩</h1> <ItemQuestions /><Footer />
+                    <div id="yourScore"></div></div>
             )
           }
           }/>
           <Route path="/journal" exact render={
           ()=> {
-            return (<div><h1>Talk About Your 💩</h1> 
+            return (<div><Header /><h1>Talk About Your 💩</h1> <Footer />
               
           </div>
             )
