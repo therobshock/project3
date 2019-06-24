@@ -9,6 +9,7 @@ import ItemQuestions from "./Components/ItemQuestions";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Description from "./Components/Description";
+import DashBody from "./Components/DashBody";
 // import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -52,6 +53,14 @@ class App extends Component {
       <Router>
       <div className="App">
           
+          {/* Routes - dependent on React-router  */}
+
+          <Route path="/dashboard" exact render={
+          ()=> {
+            return (<div><Header /><DashBody /> <Footer /> </div>)
+          }
+          }/>
+
           {/* Routes - dependent on React-router  */}
 
           <Route path="/Home" exact render={
