@@ -11,6 +11,8 @@ const Description = () => (
         <div class="reg-button"><button type="button" class="btn btn-default btn-lg animated fadeIn">Login/Register</button></div>
         
         
+       
+        
     </div>
        
 

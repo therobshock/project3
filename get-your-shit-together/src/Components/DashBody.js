@@ -22,9 +22,10 @@ const DashBody = () => (
                     </div>
                     <div class="col-6">
                     <div id="randomGif"></div>
+                    <div id="randomQuote"></div>
                     </div>
                 </div>
-                <script src="./src/Components/RandomGif.js"></script>
+              
         </div>
     
                 

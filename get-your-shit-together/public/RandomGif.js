@@ -19,3 +19,23 @@ const randomValue = values[parseInt(Math.random() * values.length)]
 console.log("<img src='"+randomValue+"'>")
 
 document.getElementById("randomGif").innerHTML = "<img class='randomimg' src='"+randomValue+"'>";
+
+
+function randomQuotes() {
+   const randQuotes = {
+        "1": "Quote 1",
+        "2": "Quote 2",
+        "3": "Quote 3"
+    }
+
+
+const values = Object.values(randQuotes)
+
+const randomValue = values[parseInt(Math.random() * values.length)]
+
+console.log(randomValue)
+
+document.getElementById("randomQuote").innerHTML = "<p class='randomquote'>"+randomValue+ "</p>"; 
+};
+
+randomQuotes();
