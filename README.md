@@ -2,7 +2,6 @@
 
 ### A React App, brought to you by Karin, Zak, Robert, & Beth ###
 
-/play letitgo
 #### An app that helps users _Get Their S\#!% Together_ in order to help them declutter their lives and their minds. ####
 
 The user is presented with a series of questions about each item they are considering removing from their space in order to prioritize what S\#!% needs to go first.
@@ -16,3 +15,4 @@ The user is presented with a series of questions about each item they are consid
 - MongoDB for backend
 - Axios
 ```
+
